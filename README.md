@@ -10,6 +10,6 @@ This project is a simple pronunciation extension.
 
 ## Technologies
 Project is created with:
-* Chrome api 
+* Chrome tts api 
 * Jquery
 	
