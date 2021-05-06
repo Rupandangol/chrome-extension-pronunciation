@@ -1,0 +1,26 @@
+{
+    "manifest_version":2,
+    "name":"pronounce",
+    "version":"1.0.0",
+    "description":"Pronounce the selected word",
+
+    "icons":{
+        "128":"/assets/icons/speech-icon-128.png",
+        "48":"/assets/icons/speech-icon-48.png",
+        "16":"/assets/icons/speech-icon-16.png"
+    },
+
+    "browser_action":{
+        "default_icon":"/assets/icons/speech-icon-48.png"
+    },
+
+    "background":{
+        "scripts":["/assets/js/eventPage.js"],
+        "persistent":false
+    },
+
+    "permissions":[
+        "tts",
+        "contextMenus"
+    ]
+}
