@@ -11,8 +11,10 @@
     },
 
     "browser_action":{
-        "default_icon":"/assets/icons/speech-icon-48.png"
+        "default_icon":"/assets/icons/speech-icon-48.png",
+        "default_popup":"popup.html"
     },
+    "options_page":"options.html",
 
     "background":{
         "scripts":["/assets/js/eventPage.js"],
@@ -21,6 +23,8 @@
 
     "permissions":[
         "tts",
-        "contextMenus"
+        "contextMenus",
+        "storage",
+        "notifications"
     ]
 }
